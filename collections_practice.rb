@@ -39,6 +39,7 @@ def count_elements(array)
     else
       new_array << element
       new_array[-1][:count] = 1
+    end 
   count = 0
   array.each do |element|
     binding.pry
