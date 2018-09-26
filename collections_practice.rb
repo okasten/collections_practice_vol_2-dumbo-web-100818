@@ -29,6 +29,7 @@ end
 
 def count_elements(array)
   new_array = []
+<<<<<<< HEAD
   count = 1
   i = 0
   array.each do |element|
@@ -39,6 +40,16 @@ def count_elements(array)
     else
       new_array << element
       new_array[-1][:count] = 1
+=======
+  count = 0
+  array.each do |element|
+    binding.pry
+    if new_array.include?(element)
+      count += 1
+      new_array[element][:count] = count
+    else
+      new_array << element
+>>>>>>> b941ab09ad6115af01043551a07d41b91a69b02a
     end 
   end
   new_array
@@ -46,6 +57,7 @@ end
 
 
 def merge_data(keys, data)
+<<<<<<< HEAD
   merged_data = []
   count = 0
   #binding.pry
@@ -74,6 +86,12 @@ def find_cool(cool)
     i += 1
   end 
   output
+=======
+  
+end 
+
+def find_cool()
+>>>>>>> b941ab09ad6115af01043551a07d41b91a69b02a
 end 
 
 def organize_schools 
