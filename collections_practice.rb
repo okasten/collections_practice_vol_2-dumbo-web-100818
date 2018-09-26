@@ -42,7 +42,7 @@ def count_elements(array)
     end 
     count = 0
     array.each do |element|
-      binding.pry
+      #binding.pry
       if new_array.include?(element)
         count += 1
         new_array[element][:count] = count
