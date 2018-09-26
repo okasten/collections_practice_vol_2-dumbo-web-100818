@@ -91,7 +91,7 @@ def find_cool(cool)
 end 
 
 def find_cool()
->>>>>>> b941ab09ad6115af01043551a07d41b91a69b02a
+
 end 
 
 def organize_schools 
