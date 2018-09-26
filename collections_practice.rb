@@ -86,13 +86,9 @@ def find_cool(cool)
     i += 1
   end 
   output
-=======
-  
 end 
 
-def find_cool()
 
-end 
 
 def organize_schools 
 end 
