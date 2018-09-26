@@ -40,16 +40,16 @@ def count_elements(array)
       new_array << element
       new_array[-1][:count] = 1
     end 
-  count = 0
-  array.each do |element|
-    binding.pry
-    if new_array.include?(element)
-      count += 1
-      new_array[element][:count] = count
-    else
-      new_array << element
-    end 
-  end
+    count = 0
+    array.each do |element|
+      binding.pry
+      if new_array.include?(element)
+        count += 1
+        new_array[element][:count] = count
+      else
+        new_array << element
+      end 
+    end
   new_array
 end 
 
